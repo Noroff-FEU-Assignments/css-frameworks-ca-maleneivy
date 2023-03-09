@@ -1,11 +1,14 @@
 import './sass/style.scss';
-import Home from "./components/Home";
+import HeaderMenu from './components/HeaderMenu';
+import CarouselHome from "./components/CarouselHome";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <>
-      <Home />
+      <HeaderMenu />
+      <CarouselHome />
       <Footer />
 
     </>
