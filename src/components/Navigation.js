@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Form, Button } from "react-bootstrap";
 
 
 const Navigation = () => {
@@ -15,6 +16,15 @@ const Navigation = () => {
                     <Nav.Link href="/news">News</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
+                <Form className="d-flex">
+                    <Form.Control
+                        type="search"
+                        placeholder="Search"
+                        className="me-2"
+                        aria-label="Search"
+                    />
+                    <Button variant="outline-success">Search</Button>
+                </Form>
             </Navbar.Collapse>
         </Navbar>
 
