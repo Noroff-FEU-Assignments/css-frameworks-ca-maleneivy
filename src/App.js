@@ -1,15 +1,19 @@
 import './sass/style.scss';
-import HeaderMenu from './components/HeaderMenu';
-import CarouselHome from "./components/CarouselHome";
-import Footer from "./components/Footer";
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import News from './pages/News';
+import Contact from './pages/Contact';
 
 
 function App() {
   return (
     <>
-      <HeaderMenu />
-      <CarouselHome />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
     </>
   );
