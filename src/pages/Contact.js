@@ -1,8 +1,13 @@
 import React from 'react'
+import Navigation from '../components/Navigation';
 
 function Contact() {
     return (
-        <div>Contact</div>
+        <>
+            <Navigation />
+            <div>Contact</div>
+        </>
+
     )
 }
 

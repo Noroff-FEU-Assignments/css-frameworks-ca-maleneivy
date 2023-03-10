@@ -1,8 +1,13 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 function News() {
     return (
-        <div>News</div>
+        <>
+            <Navigation />
+            <div>News</div>
+        </>
+
     )
 }
 
