@@ -5,7 +5,6 @@ function News() {
     return (
         <>
             <Navigation />
-            <div>News</div>
         </>
 
     )
