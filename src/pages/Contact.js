@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from '../components/Navigation';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import ContactForm from '../components/ContactForm';
 import Heading from '../components/Heading';
 import Footer from '../components/Footer';
