@@ -1,10 +1,8 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import NewsCard from '../components/NewsCard';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Heading from '../components/Heading';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Footer from '../components/Footer';
 
 function News() {
@@ -40,10 +38,8 @@ function News() {
                         <NewsCard title="Nunc porttitor vel" description="Nunc malesuada eget est fringilla dapibus." imageUrl="images/news/news-8.jpg" />
                     </Col>
                 </Row>
-
-
-
             </Container>
+
             <Footer />
         </>
     )
