@@ -11,3 +11,17 @@ $nav-tabs-link-active-bg: $white;
 .navbar-toggler {
     border: none !important;
 }
+
+.d-flex {
+    .me-2 {
+        margin-right: 0 !important;
+        border: none;
+    }
+
+    .btn-outline-success {
+        background-color: $primary;
+        color: $white;
+        border: none;
+        border-radius: none;
+    }
+}

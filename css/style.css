@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 
@@ -21,6 +21,11 @@ h1, .h1 {
   font-family: "Playfair Display", serif;
   font-size: 2.1rem;
   color: #E92569;
+  margin: 15px 0 15px 0 !important;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .navbar-brand {
@@ -32,9 +37,68 @@ h1, .h1 {
   border: none !important;
 }
 
+.d-flex .me-2 {
+  margin-right: 0 !important;
+  border: none;
+}
+.d-flex .btn-outline-success {
+  background-color: #E92569;
+  color: #ffffff;
+  border: none;
+  border-radius: none;
+}
+
 .formInput {
   background-color: #efefef;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 3px;
+}
+.formInput .form-control {
+  border: none !important;
+  height: 56px;
+}
+.formInput .ingroup-text {
+  border: none !important;
+}
+.formInput .btn-primary {
+  background-color: #767676 !important;
+  color: #ffffff;
+  height: 58px;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.form-check {
+  margin: 0 auto;
+}
+.form-check .form-check-input {
+  margin: 0 7px 0 auto;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #E92569;
+  padding-right: 6px;
+  border: none;
+}
+
+.card-body .btn-primary {
+  background-color: #E92569;
+  width: 100%;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card-body .btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+  background-color: #767676;
 }
 
 /*!

@@ -9,9 +9,11 @@ function Home() {
     return (
         <>
             <Navigation />
+
+
+            <CarouselHome />
             <div className="wrapper">
                 <Container>
-                    <CarouselHome />
                     <TabHome />
                 </Container>
             </div>
