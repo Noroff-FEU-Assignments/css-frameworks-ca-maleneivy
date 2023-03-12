@@ -1,0 +1,13 @@
+$nav-link-color: $primary;
+$nav-tabs-link-active-color: $medium;
+$nav-tabs-link-active-bg: $white;
+
+
+.navbar-brand {
+    color: $primary !important;
+    font-family: "Playfair Display", serif;
+}
+
+.navbar-toggler {
+    border: none !important;
+}

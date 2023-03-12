@@ -1,0 +1,17 @@
+body {
+    background-color: $white;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: center;
+}
+
+.wrapper {
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+
+footer {
+    background-color: $white;
+    color: $medium;
+    font-family: "Lato", sans-serif;
+}

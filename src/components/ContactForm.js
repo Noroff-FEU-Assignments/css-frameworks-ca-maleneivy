@@ -4,7 +4,7 @@ import { Form, Button, InputGroup, Col } from 'react-bootstrap'
 function ContactForm() {
     return (
         <Col lg={6} sm={12} >
-            <Form>
+            <Form className="formInput">
                 <Form.Label>Name</Form.Label>
                 <Form.Control />
                 <Form.Group className="mb-3" controlId="formBasicEmail">

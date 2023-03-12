@@ -1,31 +1,8 @@
-// Custom
-$primary: #E92569;
-$dark: #0a0a0a;
-$light: #efefef;
-$medium: #767676;
-$input-text: #c7c7c7;
-$white: #ffffff;
-
-
-// bootstrap
-$theme-colors: (
-    "primary": $primary,
-    "dark": $dark,
-    "light": $light,
-);
-
-$nav-link-color: $primary;
-$nav-tabs-link-active-color: $medium;
-$nav-tabs-link-active-bg: $white;
-
-$navbar-brand-color: $primary;
-$headings-font-family: "Playfair Display", serif;
-$headings-color: $primary;
-
-$body-bg: $light;
-$body-color: $medium;
-$body-font-family: "Lato", sans-serif;
-
-
+@import "./partials/custom.scss";
+@import "./partials/layout";
+@import "./partials/typgraphy";
+@import "./partials/nav";
+@import "./partials/home";
+@import "./partials/form";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

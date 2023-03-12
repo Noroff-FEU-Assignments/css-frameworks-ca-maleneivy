@@ -10,15 +10,18 @@ function Contact() {
     return (
         <>
             <Navigation />
-            <Container>
-                <Heading content="Submit your details" />
 
-                <Row>
-                    <ContactForm />
-                    <ContactList />
-                </Row>
+            <div className="wrapper">
+                <Container>
+                    <Heading content="Submit your details" />
 
-            </Container>
+                    <Row>
+                        <ContactForm />
+                        <ContactList />
+                    </Row>
+
+                </Container>
+            </div>
             <Footer />
         </>
 

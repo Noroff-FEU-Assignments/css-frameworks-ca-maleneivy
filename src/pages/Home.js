@@ -9,10 +9,12 @@ function Home() {
     return (
         <>
             <Navigation />
-            <Container>
-                <CarouselHome />
-                <TabHome />
-            </Container>
+            <div className="wrapper">
+                <Container>
+                    <CarouselHome />
+                    <TabHome />
+                </Container>
+            </div>
             <Footer />
         </>
     )

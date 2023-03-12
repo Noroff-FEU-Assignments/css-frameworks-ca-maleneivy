@@ -10,7 +10,7 @@ import Image from 'react-bootstrap/Image';
 function TabHome(props) {
     return (
         <Container>
-            <Heading content="We Do Yay Things" />
+            <Heading content="We do Yay Things" />
 
             <Paragraph text="Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa." />
 
@@ -19,7 +19,7 @@ function TabHome(props) {
                     <Accordion.Header>First</Accordion.Header>
                     <Accordion.Body>
                         <Col>
-                            <Image src="images/tab/tab-1.jpg" img-fluid />
+                            <Image src="images/tab/tab-1.jpg" fluid />
                         </Col>
                         <Col>
                             Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -30,7 +30,7 @@ function TabHome(props) {
                     <Accordion.Header>Second</Accordion.Header>
                     <Accordion.Body>
                         <Col>
-                            <Image src="images/tab/tab-2.jpg" img-fluid />
+                            <Image src="images/tab/tab-2.jpg" fluid />
                         </Col>
                         <Col>
                             Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -41,7 +41,7 @@ function TabHome(props) {
                     <Accordion.Header>Third</Accordion.Header>
                     <Accordion.Body>
                         <Col>
-                            <Image src="images/tab/tab-3.jpg" img-fluid />
+                            <Image src="images/tab/tab-3.jpg" fluid />
                         </Col>
                         <Col>
                             Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -58,7 +58,7 @@ function TabHome(props) {
                     <Tab eventKey="home" title="First" color="primary">
                         <Row>
                             <Col>
-                                <Image src="images/tab/tab-1.jpg" img-fluid />
+                                <Image src="images/tab/tab-1.jpg" fluid />
                             </Col>
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
@@ -73,13 +73,15 @@ function TabHome(props) {
                     <Tab eventKey="second" title="Second">
                         <Row>
                             <Col>
-                                <Image src="images/tab/tab-2.jpg" img-fluid />
+                                <Image src="images/tab/tab-2.jpg" fluid />
                             </Col>
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
 
                                 <Row>
-                                    SHARE
+                                    <Col>SHARE</Col>
+                                    <Col>Facebook</Col>
+                                    <Col>Twitter</Col>
                                 </Row>
                             </Col>
                         </Row>
@@ -87,7 +89,7 @@ function TabHome(props) {
                     <Tab eventKey="third" title="Third">
                         <Row>
                             <Col>
-                                <Image src="images/tab/tab-3.jpg" img-fluid />
+                                <Image src="images/tab/tab-3.jpg" fluid />
                             </Col>
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
