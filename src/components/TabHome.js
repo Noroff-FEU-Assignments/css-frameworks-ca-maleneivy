@@ -18,34 +18,67 @@ function TabHome(props) {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>First</Accordion.Header>
                     <Accordion.Body>
+                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
                         <Col>
                             <Image src="images/tab/tab-1.jpg" fluid />
                         </Col>
                         <Col>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
+                            <Row>
+                                <Col>
+                                    SHARE
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                </Col>
+                            </Row>
                         </Col>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>Second</Accordion.Header>
                     <Accordion.Body>
+                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
                         <Col>
                             <Image src="images/tab/tab-2.jpg" fluid />
                         </Col>
                         <Col>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
+                            <Row>
+                                <Col>
+                                    SHARE
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                </Col>
+                            </Row>
                         </Col>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>Third</Accordion.Header>
                     <Accordion.Body>
+                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
                         <Col>
                             <Image src="images/tab/tab-3.jpg" fluid />
                         </Col>
                         <Col>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-                        </Col>                    </Accordion.Body>
+                            <Row>
+                                <Col>
+                                    SHARE
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                </Col>
+                                <Col>
+                                    <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                </Col>
+                            </Row>
+                        </Col>                  </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
 
@@ -60,11 +93,19 @@ function TabHome(props) {
                             <Col>
                                 <Image src="images/tab/tab-1.jpg" fluid />
                             </Col>
+
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
                                 <Row>
-                                    SHARE
+                                    <Col>
+                                        SHARE
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                    </Col>
                                 </Row>
                             </Col>
                         </Row>
@@ -77,11 +118,16 @@ function TabHome(props) {
                             </Col>
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
                                 <Row>
-                                    <Col>SHARE</Col>
-                                    <Col>Facebook</Col>
-                                    <Col>Twitter</Col>
+                                    <Col>
+                                        SHARE
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                    </Col>
                                 </Row>
                             </Col>
                         </Row>
@@ -93,9 +139,16 @@ function TabHome(props) {
                             </Col>
                             <Col>
                                 Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
                                 <Row>
-                                    SHARE
+                                    <Col>
+                                        SHARE
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/2021 Twitter logo - black.png" height="30px" />
+                                    </Col>
+                                    <Col>
+                                        <Image src="images/social/f_logo_RGB-Black_58.png" height="30px" />
+                                    </Col>
                                 </Row>
                             </Col>
                         </Row>

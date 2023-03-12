@@ -1,9 +1,9 @@
 import React from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 
-let active = 2;
+let active = 1;
 let items = [];
-for (let number = 1; number <= 5; number++) {
+for (let number = 1; number <= 4; number++) {
     items.push(
         <Pagination.Item key={number} active={number === active}>
             {number}
@@ -11,16 +11,17 @@ for (let number = 1; number <= 5; number++) {
     );
 }
 
-const PaginationNews = (
-    <div>
-        <Pagination>{items}</Pagination>
-        <br />
+function PaginationNews() {
+    return (
+        <>
+            <div>
+                <br></br>
+                <Pagination>{items}</Pagination>
+                <br />
+            </div>
 
-        <Pagination size="lg">{items}</Pagination>
-        <br />
 
-        <Pagination size="sm">{items}</Pagination>
-    </div>
-);
-
-render(PaginationNews);
+        </>
+    );
+}
+export default PaginationNews;

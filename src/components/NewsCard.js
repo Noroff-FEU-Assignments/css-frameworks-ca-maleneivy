@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function NewsCard(props) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card>
       <Card.Img variant="top" src={props.imageUrl} />
       <Card.Body>
         <Card.Title>{props.title ?? "No Title"}</Card.Title>

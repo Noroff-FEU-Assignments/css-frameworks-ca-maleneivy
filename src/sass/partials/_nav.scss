@@ -2,6 +2,9 @@ $nav-link-color: $primary;
 $nav-tabs-link-active-color: $medium;
 $nav-tabs-link-active-bg: $white;
 
+.nav-link:hover {
+    background-color: $white;
+}
 
 .navbar-brand {
     color: $primary !important;
@@ -16,6 +19,7 @@ $nav-tabs-link-active-bg: $white;
     .me-2 {
         margin-right: 0 !important;
         border: none;
+        background-color: $white;
     }
 
     .btn-outline-success {

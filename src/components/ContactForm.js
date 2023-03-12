@@ -3,7 +3,7 @@ import { Form, Button, InputGroup, Col } from 'react-bootstrap'
 
 function ContactForm() {
     return (
-        <Col lg={6} sm={12} >
+        <Col lg={6} sm={12}>
             <Form className="formInput">
                 <Form.Label>Name</Form.Label>
                 <Form.Control />

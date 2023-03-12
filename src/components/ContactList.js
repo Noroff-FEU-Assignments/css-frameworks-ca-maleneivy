@@ -7,27 +7,30 @@ import { faEnvelope, faPhoneFlip, faLocationDot } from '@fortawesome/free-solid-
 
 function ContactList() {
     return (
-        <Col lg={6} sm={12} >
+        <Col lg={6} sm={12}>
             <Row>
-                <div>
+                <Col>
                     <FontAwesomeIcon icon={faEnvelope} /> hello@yay.com
-                </div>
+                </Col>
             </Row>
 
             <Row>
-                <div>
+                <Col>
                     <FontAwesomeIcon icon={faPhoneFlip} /> 123 456 7890
-                </div>
+                </Col>
             </Row>
 
             <Row>
-                <div>
+                <Col>
                     <FontAwesomeIcon icon={faLocationDot} />
                     123 Some Street
+                    <br></br>
                     Somewhere
+                    <br></br>
                     Some City
+                    <br></br>
                     10000
-                </div>
+                </Col>
             </Row>
 
         </Col>
