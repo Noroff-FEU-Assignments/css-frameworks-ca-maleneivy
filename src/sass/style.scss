@@ -13,4 +13,7 @@ $theme-colors: (
     "light": $light,
 );
 
+$nav-link-color: $primary;
+$nav-tabs-link-active-color: $medium;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
