@@ -4,6 +4,7 @@ $dark: #0a0a0a;
 $light: #efefef;
 $medium: #767676;
 $input-text: #c7c7c7;
+$white: #ffffff;
 
 
 // bootstrap
@@ -15,5 +16,16 @@ $theme-colors: (
 
 $nav-link-color: $primary;
 $nav-tabs-link-active-color: $medium;
+$nav-tabs-link-active-bg: $white;
+
+$navbar-brand-color: $primary;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $primary;
+
+$body-bg: $light;
+$body-color: $medium;
+$body-font-family: "Lato", sans-serif;
+
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
